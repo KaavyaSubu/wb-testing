@@ -7,7 +7,7 @@ class TestCase(unittest.TestCase):
 
     def fib(self):
         expectedList = [0,1,1,2,3,5,8,13,21,34]
-        self.assertEqual(fibonacci.print(),expectedList)
+        self.assertEqual(fibonacci.printFib(),expectedList)
 
 
 
