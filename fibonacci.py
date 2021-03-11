@@ -9,4 +9,12 @@ def printFib():
     return fibList
 
 
-print(printFib())
+def factorial(n):
+    prod = n
+    while n > 1:
+        n -= 1
+        prod *= n
+    return prod
+
+
+print(factorial(5))
